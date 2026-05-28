@@ -1,0 +1,7 @@
+interface:
+  display_name: GG → Promote Development To Staging → PR Handoff
+  short_description: Open or inspect development-to-staging promotion PRs without merging or deploy verification.
+  default_prompt: Use promote-development-to-staging/SKILL.md for development-to-staging release-candidate PR creation, reuse, plain-language progress updates, inferred PR metadata, blocker inspection, and handoff reporting.
+  brand_color: '#6366f1'
+  icon_large: ./assets/icon-large.png
+  icon_small: ./assets/icon-small.svg

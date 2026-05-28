@@ -1,0 +1,14 @@
+**The Four Questions**
+1. Verb: validate
+2. Object: a customs inspection checkpoint where every package gets scrutinized before crossing
+3. Animal: a grumpy border patrol agent who checks every single repository's ID, compares it against the master list, and refuses to let anything through without proper paperwork
+4. Most annoying manual task: manually visiting fifty different repositories, opening each one to check if branches have diverged, hunting down any existing PRs hiding in corners, reading every checkmark status, and handwriting a full report for each one while standing in line
+
+**The Reality**
+This skill is basically a hall monitor for your code branches. It wanders over to every repository you've told it to watch, pokes the development branch and staging branch with a stick to see if they're different lengths, sniffs around for any open pull requests that might already be doing the job, and if nothing exists yet, stamps a new PR into existence. Then it obsessively compares the PR's title against exactly what it should be — not close, not similar, but EXACT — and reports back whether your code is allowed to cross the border or if some bouncer in CI is blocking the door.
+
+**The Superpower and the Mockery**
+It thinks it is the bouncer at an exclusive nightclub who decides who gets in. In reality, it is just a very thorough paper-pusher holding a clipboard that refuses to push any papers — it just tells you what needs pushing. It will inspect every single repo in your release party, catch the ones trying to skip the line (no-diff repos), validate every title like a judge reading fine print, and then proudly announce it has done absolutely nothing except prepare the handoff for someone else to actually merge. It has no idea if your code works — it just checks the guest list.
+
+**The Mockery**
+This skill is essentially a very responsible secretary who organizes everything on your desk, arranges the documents precisely, checks for mistakes, and then sits back and says "there, I've prepared it for you to sign" — while having zero power to actually sign anything or make anything happen. It's the ultimate middle-manager of code promotion: thorough, compliant, and completely unable to actually accomplish the goal it spent all that effort preparing.
